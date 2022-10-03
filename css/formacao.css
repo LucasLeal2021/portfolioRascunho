@@ -53,6 +53,13 @@ margin-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
+.faculdade a{
+text-decoration: none;
+color: aliceblue;
+}
+.faculdade a:hover {
+  color:chartreuse;
+}
 .faculdade-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
@@ -121,7 +128,13 @@ margin-bottom: 60px;
   display: flex;
   justify-content: space-between;
 }
-
+.cursos li a {
+ text-decoration: none;
+ color: aliceblue;
+}
+.cursos ul li a:hover{
+  color:chartreuse;
+}
 @media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;

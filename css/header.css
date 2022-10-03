@@ -31,3 +31,6 @@
     border-radius: 4px;
   }
 }
+.menu-nav ul li a:hover {
+  color:chartreuse;
+}
